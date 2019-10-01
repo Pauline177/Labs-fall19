@@ -1,0 +1,27 @@
+package labPrinter;
+
+public class LaserPrinter extends Printer {
+
+	private int remainingToner;
+	
+	public LaserPrinter(int sNumber) {
+		super(sNumber);
+		remainingToner = 100;
+		
+	}
+	
+	public void print() {
+		if(this.getRemainingToner() > 0) {
+			remainingToner -= 10;
+			System.out.println("LaserPrinter is priting .....");
+			System.out.println("remaining toner: " + this.remainingToner + "%");
+		}else {
+			System.out.println("Toner is empty");
+		}
+	}
+	
+	
+	public int getRemainingToner() {
+		return remainingToner;
+	}
+}

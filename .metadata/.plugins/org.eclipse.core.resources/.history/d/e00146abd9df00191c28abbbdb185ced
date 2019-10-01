@@ -1,0 +1,31 @@
+package Courses;
+import java.util.Scanner;
+
+public class AllCoursesApp {
+
+	private static Scanner input = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		AllCoursesApp all = new AllCoursesApp();
+		
+		
+		int choice = 0; 
+		while(choice != 6) {
+			System.out.println("1. Display all books");
+            System.out.println("2. Add a book");
+            System.out.println("3. Find a book");
+            System.out.println("4. Delete a book");
+            System.out.println("5. Number of books");
+            System.out.println("6. Exit");
+            System.out.print("Enter selection: ");
+            
+            choice = input.nextInt();
+            
+            if(choice == 1) {
+            	
+            }
+		}
+
+	}
+
+}

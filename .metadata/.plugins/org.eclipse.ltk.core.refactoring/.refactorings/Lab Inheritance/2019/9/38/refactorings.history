@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lab Inheritance/src/school&apos; to &apos;schools&apos;" description="Rename resource &apos;school&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/school" name="schools" stamp="1568671304206" updateReferences="true"/>
+</session>

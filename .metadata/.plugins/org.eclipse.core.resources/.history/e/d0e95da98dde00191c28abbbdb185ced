@@ -1,0 +1,22 @@
+package labPrinter;
+
+public class InkjetPrinter extends Printer {
+
+private int remainingToner;
+	
+	public InkjetPrinter(int number, int sNumber) {
+		super(number);
+		remainingToner = 100;
+		
+	}
+	
+	public void print() {
+		if(remainingToner > 0) {
+			remainingToner -= 10;
+			System.out.println("InkjetPrinter is priting .....");
+			System.out.println("remaining toner: " + remainingToner + "%");
+		}else {
+			System.out.println("toner/Cartridge is empty");
+		}
+	}
+}
