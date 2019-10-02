@@ -7,16 +7,19 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
-import java.awt.Font;
-import javax.swing.SwingConstants;
-import javax.swing.JTextField;
-import java.awt.SystemColor;
 import java.awt.Color;
+import javax.swing.SwingConstants;
+import java.awt.Font;
 import javax.swing.JButton;
+import java.awt.SystemColor;
+import javax.swing.JTextField;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class IntroGui extends JFrame {
 
 	private JPanel contentPane;
+	private JTextField textField;
 
 	/**
 	 * Launch the application.
@@ -38,78 +41,53 @@ public class IntroGui extends JFrame {
 	 * Create the frame.
 	 */
 	public IntroGui() {
-		
-		JLabel lblMyFirstGui = new JLabel("My First Gui");
-		lblMyFirstGui.setForeground(Color.GREEN);
-		lblMyFirstGui.setBackground(Color.BLUE);
-		lblMyFirstGui.setFont(new Font("Lucida Grande", Font.PLAIN, 34));
-		lblMyFirstGui.setHorizontalAlignment(SwingConstants.CENTER);
-		getContentPane().add(lblMyFirstGui, BorderLayout.NORTH);
-		
-		JLabel lblWest = new JLabel("West");
-		lblWest.setBackground(Color.CYAN);
-		lblWest.setFont(new Font("Lucida Grande", Font.PLAIN, 23));
-		getContentPane().add(lblWest, BorderLayout.WEST);
-		
-		JLabel lblHi = new JLabel("Hi");
-		lblHi.setBackground(Color.RED);
-		lblHi.setForeground(Color.YELLOW);
-		lblHi.setFont(new Font("Lucida Grande", Font.PLAIN, 63));
-		lblHi.setHorizontalAlignment(SwingConstants.CENTER);
-		getContentPane().add(lblHi, BorderLayout.CENTER);
-		
-		JLabel lblName = new JLabel("Name: ");
-		lblName.setBackground(Color.GRAY);
-		lblName.setHorizontalAlignment(SwingConstants.LEFT);
-		lblName.setFont(new Font("Lucida Grande", Font.PLAIN, 25));
-		getContentPane().add(lblName, BorderLayout.SOUTH);
-		
-		JLabel lblMyFirstGui = new JLabel("MY First Gui");
-		getContentPane().add(lblMyFirstGui, BorderLayout.NORTH);
-		
-		JLabel lblWest = new JLabel("West");
-		getContentPane().add(lblWest, BorderLayout.WEST);
-		
-		JLabel label_1 = new JLabel("New label");
-		getContentPane().add(label_1, BorderLayout.CENTER);
-		
-		JLabel lblMyFirstGui = new JLabel("My First Gui");
-		lblMyFirstGui.setFont(new Font("Lucida Grande", Font.PLAIN, 28));
-		lblMyFirstGui.setBackground(Color.BLUE);
-		lblMyFirstGui.setOpaque(true);
-		lblMyFirstGui.setHorizontalAlignment(SwingConstants.CENTER);
-		getContentPane().add(lblMyFirstGui, BorderLayout.NORTH);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 500, 400);
 		contentPane = new JPanel();
+		contentPane.setBackground(Color.WHITE);
+		contentPane.setForeground(SystemColor.activeCaptionText);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
 		
-		JPanel panel = new JPanel();
-		panel.setForeground(Color.GREEN);
-		panel.setBackground(Color.BLUE);
-		contentPane.add(panel, BorderLayout.NORTH);
-		
 		JLabel lblMyFirstGui = new JLabel("My First Gui");
-		lblMyFirstGui.setFont(new Font("Lucida Grande", Font.PLAIN, 20));
-		lblMyFirstGui.setBackground(Color.BLUE)
-		panel.add(lblMyFirstGui);
+		lblMyFirstGui.setFont(new Font("Lucida Grande", Font.PLAIN, 33));
+		lblMyFirstGui.setHorizontalAlignment(SwingConstants.CENTER);
+		lblMyFirstGui.setForeground(Color.GREEN);
+		lblMyFirstGui.setBackground(Color.BLUE);
+		lblMyFirstGui.setOpaque(true);
+		contentPane.add(lblMyFirstGui, BorderLayout.NORTH);
 		
-		JLabel lblWest = new JLabel("West");
-		lblWest.setBackground(SystemColor.textHighlight);
-		lblWest.setHorizontalAlignment(SwingConstants.CENTER);
-		contentPane.add(lblWest, BorderLayout.WEST);
+		JButton btnWest = new JButton("WEST");
+		
+		btnWest.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		btnWest.setForeground(SystemColor.activeCaptionText);
+		btnWest.setFont(new Font("Lucida Grande", Font.PLAIN, 12));
+		btnWest.setBackground(SystemColor.textHighlight);
+		btnWest.setOpaque(true);
+		contentPane.add(btnWest, BorderLayout.WEST);
+		
+		JPanel panel = new JPanel();
+		panel.setBackground(SystemColor.windowBorder);
+		contentPane.add(panel, BorderLayout.SOUTH);
+		
+		JLabel lblName = new JLabel("Name: ");
+		panel.add(lblName);
+		
+		textField = new JTextField();
+		panel.add(textField);
+		textField.setColumns(10);
 		
 		JLabel lblHi = new JLabel("Hi");
 		lblHi.setForeground(Color.YELLOW);
-		lblHi.setBackground(new Color(255, 0, 0));
+		lblHi.setBackground(Color.RED);
+		lblHi.setOpaque(true);
+		lblHi.setFont(new Font("Hiragino Kaku Gothic ProN", Font.ITALIC, 77));
 		lblHi.setHorizontalAlignment(SwingConstants.CENTER);
 		contentPane.add(lblHi, BorderLayout.CENTER);
-		
-		JLabel lblName = new JLabel("Name: ");
-		lblName.setBackground(Color.GRAY);
-		contentPane.add(lblName, BorderLayout.SOUTH);
 	}
 
 }
