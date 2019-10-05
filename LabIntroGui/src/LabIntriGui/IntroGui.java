@@ -59,6 +59,8 @@ public class IntroGui extends JFrame {
 		contentPane.add(lblMyFirstGui, BorderLayout.NORTH);
 		
 		JButton btnWest = new JButton("WEST");
+		btnWest.setBackground(Color.BLUE);
+		btnWest.setOpaque(true);
 		
 		btnWest.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -85,7 +87,7 @@ public class IntroGui extends JFrame {
 		lblHi.setForeground(Color.YELLOW);
 		lblHi.setBackground(Color.RED);
 		lblHi.setOpaque(true);
-		lblHi.setFont(new Font("Hiragino Kaku Gothic ProN", Font.ITALIC, 77));
+		lblHi.setFont(new Font("Heiti TC", Font.ITALIC, 77));
 		lblHi.setHorizontalAlignment(SwingConstants.CENTER);
 		contentPane.add(lblHi, BorderLayout.CENTER);
 	}
