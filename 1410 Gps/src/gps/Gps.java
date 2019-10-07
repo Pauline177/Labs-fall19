@@ -1,0 +1,122 @@
+package gps;
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
+
+import java.util.ArrayList;
+import java.util.Random;
+
+
+
+/**
+ * @author paulinemakoma
+ * assignment A03
+ */
+
+public class Gps {
+
+	private ArrayList<GpsPosition> route;
+	
+	/**
+	 * Gps - creates the route array list and adds the first GpsPosition
+	 * @param route GpsPosition argument
+	 */
+	  public Gps(GpsPosition route) {
+	        this.route = new ArrayList<>();
+	        this.route.add(route);
+	    }
+	
+	public ArrayList<GpsPosition> getRoute() {
+		
+		return route;
+	}
+	
+	/**
+	 * 
+	 * @param position gets new position and adds it to route
+	 */
+	public void update(GpsPosition position) {
+		
+		route.add(position);
+	}
+	
+	/**
+	 * updates the GpsPosition with random position within .5 and -.5 
+	 * 			of the current positions latitude and longitude values.
+	 */
+	public void randomUpdate() {
+		
+		Random rand = new Random();
+		GpsPosition randPosition = new GpsPosition(
+				
+				route.get(route.size()-1).getLatitude() + rand.nextDouble()-.5,
+                route.get(route.size()-1).getLongitude() + rand.nextDouble()-.5,
+                route.get(route.size()-1).getElevation());
+		
+		route.add(randPosition);
+	}
+
+	/**
+	 * 
+	 * @return GpsPosition current position 
+	 */
+	public GpsPosition position() {
+		
+		return route.get(route.size()-1);
+	}
+	
+	/**
+	 * 
+	 * @return sum of all distances traveled between positions that are listed on the route.
+	 */
+	public Double distanceTraveled() {
+		double totalDistance = 0;
+		
+		for (int i = 1; i < route.size(); i++){
+			
+			totalDistance += distance(route.get(i-1), route.get(i));
+		}
+		return totalDistance;
+	}
+	
+	
+	private Double distance(GpsPosition from, GpsPosition to) {
+		
+		final int R = 6371; // radius of the earth
+        double longDist = Math.toRadians(to.getLongitude() - from.getLongitude());
+        double latDist = Math.toRadians(to.getLatitude() - from.getLatitude());
+        double a = Math.pow(Math.sin(latDist / 2), 2)
+                + Math.cos(Math.toRadians(from.getLatitude())) * Math.cos(Math.toRadians(to.getLatitude()))
+                * Math.pow(Math.sin(longDist /2), 2);
+        double distance = R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+        // elevation is in meters so we need to divide by 1000 to convert to Kilometers
+        double height = (from.getElevation() - to.getElevation()) / 1000;
+
+        return Math.sqrt(Math.pow(distance, 2) + Math.pow(height, 2));
+		
+		
+	}
+	
+	
+	public void reset() {
+		GpsPosition position = route.get(route.size()-1);
+		
+		route.clear();
+		
+		route.add(position);
+	}
+	
+	 public static void main(String[] args){
+	        Result result = JUnitCore.runClasses(GpsPositionTest.class, GpsTest.class);
+
+	        for (Failure failure : result.getFailures()) {
+	            System.out.printf("Failed test: %s%n", failure.toString());
+	        }
+
+	        System.out.printf("Number of tests run: %d%n", result.getRunCount());
+	        System.out.printf("Successful: %d%n", result.getRunCount() - result.getFailureCount());
+	        System.out.printf("Failed: %d%n", result.getFailureCount());
+	    }
+	
+}
