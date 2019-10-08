@@ -1,11 +1,10 @@
-/****************************************************************
- * These are the jUnit tests to test the class GpsPosition.
- * Feel free to write your own jUnit tests in a separate class.
- * However, there tests here should NOT be modified. 
- * They need to be used unchanged for the submission.
- ****************************************************************/
+
 package gps;
 
+/**
+ * @author paulinemakoma
+ * assignment A03 GPS with unit test
+ */
 import static org.junit.Assert.*;
 
 import org.junit.Test;

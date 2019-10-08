@@ -3,7 +3,7 @@ package gps;
 
 /**
  * @author paulinemakoma
- * assignment A03
+ * assignment A03 GPS with unit test
  */
 
 public class GpsPosition {

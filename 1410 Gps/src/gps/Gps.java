@@ -10,7 +10,7 @@ import java.util.Random;
 
 /**
  * @author paulinemakoma
- * assignment A03
+ * assignment A03 GPS with unit test
  */
 
 public class Gps {
@@ -79,7 +79,12 @@ public class Gps {
 		return totalDistance;
 	}
 	
-	
+	/**
+	 * distance calculates the distance between two locations
+	 * @param from first gps position
+	 * @param to second gps position
+	 * @return gives the distance between two points (from - to)
+	 */
 	private Double distance(GpsPosition from, GpsPosition to) {
 		
 		final int R = 6371; // radius of the earth
@@ -99,6 +104,9 @@ public class Gps {
 	}
 	
 	
+	/**
+	 * reset clears the route and resets gps position to the last position it was at
+	 */
 	public void reset() {
 		GpsPosition position = route.get(route.size()-1);
 		
