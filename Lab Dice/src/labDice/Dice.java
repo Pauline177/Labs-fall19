@@ -82,6 +82,7 @@ public class Dice extends JFrame {
 					System.out.println(" nothing");
 			}
 		});
+		
 		btnRoll.setForeground(Color.RED);
 		contentPane.add(btnRoll, BorderLayout.SOUTH);
 		
