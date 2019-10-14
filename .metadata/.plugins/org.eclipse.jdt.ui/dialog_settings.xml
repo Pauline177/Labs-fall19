@@ -15,8 +15,8 @@
 		<item key="configure_problem_severity_dialog_id" value="false"/>
 	</section>
 	<section name="NewClassWizardPage">
-		<item key="create_constructor" value="true"/>
-		<item key="create_unimplemented" value="true"/>
+		<item key="create_constructor" value="false"/>
+		<item key="create_unimplemented" value="false"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
@@ -42,6 +42,7 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/paulinemakoma/Desktop/module03JarFile.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/ItemListJarFile.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/Module02JarFile.jar"/>
 			<item value="/Users/paulinemakoma/Jar file lab inheritance test.jar"/>
