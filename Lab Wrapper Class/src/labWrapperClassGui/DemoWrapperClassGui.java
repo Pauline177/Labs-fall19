@@ -84,8 +84,8 @@ public class DemoWrapperClassGui extends JFrame {
         contentPane.setFont(new Font("Verdana", Font.PLAIN, 26));
         setContentPane(contentPane);
 
-        contentPane.add(numberControlPanel, BorderLayout.WEST);
-        contentPane.add(numberTextArea, BorderLayout.CENTER);
+//        contentPane.add(numberControlPanel, BorderLayout.WEST);
+//        contentPane.add(numberTextArea, BorderLayout.CENTER);
 
         // contentPane.add(charControlPanel, BorderLayout.WEST);
         // contentPane.add(charLabel, BorderLayout.CENTER);
