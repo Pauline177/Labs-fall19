@@ -30,15 +30,19 @@ public class DeskPedalPlus extends DeskPedal {
 		int remainder = time % 60;
 		int hours = time / 60;
 		
-		if(time > 60) {
-	
-			System.out.println("Total time pedaled: " + hours+ "' " + remainder +"''");
-		}else if(remainder == 0) {
+		
+		
+		if(remainder == 0) {
 			
 			System.out.println("Total time pedaled: " + hours + "'");
 		}
+		else if(time > 60) {
+	
+			System.out.println("Total time pedaled: " + hours+ "' " + remainder +"''");
+			
+		}
 		else
-			System.out.println("Total time pedaled: " + time + "''");
+			System.out.println("Total time pedaled: " + hours+ "' " + remainder +"''");
 	}
 	
 	
