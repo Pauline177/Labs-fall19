@@ -6,13 +6,18 @@ public class DemoWrapperClassConsole {
         DemoWrapperClass dwc = new DemoWrapperClass();
 
         System.out.println("Method minMax:\n");
+        System.out.println("----------------------------");
         System.out.println(dwc.minMax());
+        
 
         System.out.println("\nMethod toBinary:\n");
-		System.out.println(dwc.toBinary(30));
+        System.out.println("----------------------------");
+		System.out.println(dwc.toBinary(15));
+		
 
         System.out.println("\nMethod charProperties:\n");
-        System.out.println(dwc.charProperties('f'));
+        System.out.println("----------------------------");
+        System.out.println(dwc.charProperties('B'));
 
     }
 

@@ -19,14 +19,21 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.Color;
 import java.util.Enumeration;
+import java.util.Scanner;
 
 import javax.swing.JTextArea;
 import javax.swing.JRadioButton;
 import javax.swing.ButtonGroup;
 import javax.swing.AbstractButton;
+import javax.swing.JTextField;
+import java.awt.Dimension;
 
 public class DemoWrapperClassGui extends JFrame {
-
+	
+	DemoWrapperClass myDemo = new DemoWrapperClass();
+	Scanner input = new Scanner(System.in);
+//	String entered= "name;
+	
     private JPanel contentPane;
 
     private JMenuBar menuBar;
@@ -35,14 +42,15 @@ public class DemoWrapperClassGui extends JFrame {
     private JMenuItem mntnExit;
 
     private JPanel charControlPanel;
-    private JButton btnCharSubmit;
-    private JLabel charLabel;
+    private JTextField btnCharSubmit;
+    private JTextArea charLabel;
 
     private JPanel numberControlPanel;
     private JTextArea numberTextArea;
     private final ButtonGroup buttonGroup = new ButtonGroup();
+    private JRadioButton btnNumberInactiveButton;
     private JRadioButton rdbtnNewRadioButton;
-    private JRadioButton rdbtnNewRadioButton_1;
+    private final ButtonGroup buttonGroup_1 = new ButtonGroup();
 
     /**
      * Launch the application.
@@ -87,36 +95,47 @@ public class DemoWrapperClassGui extends JFrame {
 //        contentPane.add(numberControlPanel, BorderLayout.WEST);
 //        contentPane.add(numberTextArea, BorderLayout.CENTER);
 
-        // contentPane.add(charControlPanel, BorderLayout.WEST);
-        // contentPane.add(charLabel, BorderLayout.CENTER);
+         contentPane.add(charControlPanel, BorderLayout.WEST);
+         contentPane.add(charLabel, BorderLayout.CENTER);
     }
 
     private void createNumberTextArea() {
         numberTextArea = new JTextArea();
+        
         numberTextArea.setMargin(new Insets(25, 25, 25, 25));
-        numberTextArea.setText("JTextArea");
+        numberTextArea.setText("Welcome, select a button for display");
     }
 
     private void createNumberControlPanel() {
         numberControlPanel = new JPanel();
         numberControlPanel.setBorder(new EmptyBorder(20, 20, 20, 20));
         numberControlPanel.setLayout(new GridLayout(12, 1, 0, 0));
+
+        btnNumberInactiveButton = new JRadioButton("Min Max");
+        btnNumberInactiveButton.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        		numberTextArea.setText(myDemo.minMax());
+        	}
+        });
+        buttonGroup_1.add(btnNumberInactiveButton);
+        numberControlPanel.add(btnNumberInactiveButton);
         
-        DemoWrapperClass dwc = new DemoWrapperClass();
-        
-        rdbtnNewRadioButton_1 = new JRadioButton("Min Max");
-        numberControlPanel.add(rdbtnNewRadioButton_1);
-        
-        rdbtnNewRadioButton = new JRadioButton("Bin Oct Hex");
+        rdbtnNewRadioButton = new JRadioButton("Binary Oct Hex");
+        rdbtnNewRadioButton.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        		numberTextArea.setText(myDemo.toBinary(15));
+        	}
+        });
+        buttonGroup_1.add(rdbtnNewRadioButton);
         numberControlPanel.add(rdbtnNewRadioButton);
     }
 
     private void createCharLabel() {
-        charLabel = new JLabel("Char");
+        charLabel = new JTextArea("");
+        charLabel.setMargin(new Insets(30, 30, 30, 30));
         charLabel.setForeground(new Color(255, 255, 255));
         charLabel.setOpaque(true);
         charLabel.setBackground(new Color(220, 20, 60));
-        charLabel.setHorizontalAlignment(SwingConstants.CENTER);
         charLabel.setFont(new Font("Verdana", Font.PLAIN, 40));
     }
 
@@ -125,13 +144,16 @@ public class DemoWrapperClassGui extends JFrame {
         charControlPanel.setBackground(SystemColor.controlHighlight);
         charControlPanel.setBorder(new EmptyBorder(15, 15, 15, 15));
         charControlPanel.setLayout(new GridLayout(7, 1, 0, 0));
-
-        btnCharSubmit = new JButton("Submit");
+ 
+        
+        /////text field on the left
+        btnCharSubmit = new JTextField("");
+        btnCharSubmit.setPreferredSize(new Dimension(150, 26));
         btnCharSubmit.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent arg0) {
-                charLabel.setBackground(Color.BLUE);
-            }
+        	public void actionPerformed(ActionEvent e) {
+        		char[] charString = btnCharSubmit.getText().toCharArray();
+        		charLabel.setText(myDemo.charProperties(charString[0]));
+        	}
         });
         charControlPanel.add(btnCharSubmit);
     }
