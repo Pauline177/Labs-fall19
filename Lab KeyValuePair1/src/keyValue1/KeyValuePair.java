@@ -6,10 +6,10 @@ package keyValue1;
  * @param <K>
  * @param <V>
  */
-//public class KeyValuePair<K extends Comparable<K> ,V> implements Comparable< KeyValuePair <K,V>> {
+public class KeyValuePair<K extends Comparable<K> ,V> implements Comparable< KeyValuePair <K,V>> {
 	
 	
-	public class KeyValuePair<K extends Comparable<K>, V> implements Comparable< KeyValuePair <K, V>>{
+//	public class KeyValuePair<K extends Comparable<K>, V> implements Comparable< KeyValuePair <K, V>>{
 
 	private K key;
 	private V value;
@@ -80,6 +80,13 @@ package keyValue1;
 	@Override
 	public String toString() {
 		return String.format("(%s, %s)", this.key, this.value);
+	}
+
+
+	@Override
+	public int compareTo(KeyValuePair<K, V> o) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	
 	
