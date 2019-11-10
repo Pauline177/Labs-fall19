@@ -79,19 +79,15 @@ public class KeyValuePair<K extends Comparable<K>, V>
 
 	@Override
 	public String toString() {
-		return String.format("(%s, %s)", this.key, this.value);
+		return String.format("%s: %s", this.key, this.value);
 	}
 
 
 	@Override
 	public int compareTo(KeyValuePair<K, V> o) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return this.getKey().compareTo(o.getKey());
 	}
-	
-	
-	
-	
 	
 	
 }
