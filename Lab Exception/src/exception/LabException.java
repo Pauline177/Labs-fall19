@@ -38,6 +38,7 @@ public class LabException {
             
                 if (number == 0) 
                 	throw new IllegalArgumentException("Can’t calculate 7 % 0 ");
+                	
                 return number;
                 
             } catch (InputMismatchException e) {
