@@ -2,7 +2,8 @@ package labSerialization;
 
 import java.awt.Color;
 
-public class ColoredSquare {
+public class ColoredSquare implements Serializable{
+	
     private final int side;
     private final Color color;
 

@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class ListVsSetDemo {
+public class ListVsSetDemo implements Serializable {
     private final List<ColoredSquare> list;
     private final Set<ColoredSquare> set;
 
