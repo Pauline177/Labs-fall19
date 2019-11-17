@@ -42,6 +42,7 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/paulinemakoma/Desktop/module05JarFile.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/module04JarFile.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/module03JarFile.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/ItemListJarFile.jar"/>
