@@ -23,8 +23,8 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="JarPackageWizard">
-		<item key="JarPackageWizardPage.EXPORT_CLASS_FILES" value="true"/>
-		<item key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER" value="false"/>
+		<item key="JarPackageWizardPage.EXPORT_CLASS_FILES" value="false"/>
+		<item key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER" value="true"/>
 		<item key="JarPackageWizardPage.EXPORT_JAVA_FILES" value="true"/>
 		<item key="JarPackageWizardPage.REFACTORINGS" value="false"/>
 		<item key="JarPackageWizardPage.COMPRESS" value="true"/>
@@ -42,6 +42,8 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/paulinemakoma/Desktop/A04Inheritance.jar"/>
+			<item value="/Users/paulinemakoma/Desktop/A04 Inheritance.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/module05JarFile.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/module04JarFile.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/module03JarFile.jar"/>
@@ -62,8 +64,8 @@
 	<section name="BreadcrumbItemDropDown">
 	</section>
 	<section name="JavadocWizardDialog">
-		<item key="DIALOG_X_ORIGIN" value="169"/>
-		<item key="DIALOG_Y_ORIGIN" value="116"/>
+		<item key="DIALOG_X_ORIGIN" value="390"/>
+		<item key="DIALOG_Y_ORIGIN" value="200"/>
 		<item key="DIALOG_WIDTH" value="600"/>
 		<item key="DIALOG_HEIGHT" value="531"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
@@ -73,7 +75,7 @@
 		<item key="fromStandard" value="true"/>
 		<item key="docletname" value=""/>
 		<item key="docletpath" value=""/>
-		<item key="access" value="public"/>
+		<item key="access" value="private"/>
 		<item key="use" value="true"/>
 		<item key="author" value="true"/>
 		<item key="version" value="true"/>
@@ -85,10 +87,165 @@
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="true"/>
 		<item key="source" value="1.8"/>
-		<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/ItemList/javadoc.xml"/>
-		<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/ItemList/doc"/>
+		<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/A04 Inheritance/javadoc.xml"/>
+		<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/A04 Inheritance/doc"/>
 		<item key="doctitle" value="Java FTP client Utility API"/>
 		<section name="projects">
+			<section name="Lab KeyValuePair3">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab KeyValuePair3/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab KeyValuePair3/javadoc.xml"/>
+			</section>
+			<section name="Lab poly">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab poly/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab poly/javadoc.xml"/>
+			</section>
+			<section name="ItemList">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/ItemList/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/ItemList/javadoc.xml"/>
+			</section>
+			<section name="Lab Interface">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab Interface/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab Interface/javadoc.xml"/>
+			</section>
+			<section name="Lab Serialization">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab Serialization/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab Serialization/javadoc.xml"/>
+			</section>
+			<section name="Lab File">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab File/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab File/javadoc.xml"/>
+			</section>
+			<section name="Module02">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Module02/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Module02/javadoc.xml"/>
+			</section>
+			<section name="LabLayout">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/git/LabsFall19/LabLayout/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/git/LabsFall19/LabLayout/javadoc.xml"/>
+			</section>
+			<section name="Lab timesTable">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab timesTable/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab timesTable/javadoc.xml"/>
+			</section>
+			<section name="Lab Balloon">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/git/LabsFall19/Lab Balloon/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/git/LabsFall19/Lab Balloon/javadoc.xml"/>
+			</section>
+			<section name="Lab KeyValuePair1">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab KeyValuePair1/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab KeyValuePair1/javadoc.xml"/>
+			</section>
+			<section name="a1410_Module03">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/a1410_Module03/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/a1410_Module03/javadoc.xml"/>
+			</section>
+			<section name="1410 Gps">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/1410 Gps/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/1410 Gps/javadoc.xml"/>
+			</section>
+			<section name="Test WindowBuilder">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Test WindowBuilder/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Test WindowBuilder/javadoc.xml"/>
+			</section>
+			<section name="1410_Module04">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/1410_Module04/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/1410_Module04/javadoc.xml"/>
+			</section>
+			<section name="Lab Coin">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab Coin/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab Coin/javadoc.xml"/>
+			</section>
+			<section name="A04 Inheritance">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/A04 Inheritance/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/A04 Inheritance/javadoc.xml"/>
+			</section>
+			<section name="Lab Exception">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab Exception/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab Exception/javadoc.xml"/>
+			</section>
+			<section name="Lab Inheritance">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab Inheritance/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab Inheritance/javadoc.xml"/>
+			</section>
+			<section name="z1410_module03">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/z1410_module03/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/z1410_module03/javadoc.xml"/>
+			</section>
+			<section name="Lab Printer">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/git/LabsFall19/Lab Printer/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/git/LabsFall19/Lab Printer/javadoc.xml"/>
+			</section>
+			<section name="Lab Wrapper Class">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab Wrapper Class/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab Wrapper Class/javadoc.xml"/>
+			</section>
+			<section name="recursion">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/recursion/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/recursion/javadoc.xml"/>
+			</section>
+			<section name="1410_Module05">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/1410_Module05/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/1410_Module05/javadoc.xml"/>
+			</section>
+			<section name="LabExceptionHandling">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/LabExceptionHandling/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/LabExceptionHandling/javadoc.xml"/>
+			</section>
+			<section name="1410_A03">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/1410_A03/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/1410_A03/javadoc.xml"/>
+			</section>
+			<section name="Mod3Exam">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Mod3Exam/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Mod3Exam/javadoc.xml"/>
+			</section>
+			<section name="Lab JUnit">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/git/LabsFall19/Lab JUnit/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/git/LabsFall19/Lab JUnit/javadoc.xml"/>
+			</section>
+			<section name="LabIntroGui">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/LabIntroGui/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/LabIntroGui/javadoc.xml"/>
+			</section>
+			<section name="LabQuadrotors">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/LabQuadrotors/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/LabQuadrotors/javadoc.xml"/>
+			</section>
+			<section name="Module1quiz">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Module1quiz/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Module1quiz/javadoc.xml"/>
+			</section>
 		</section>
 	</section>
 	<section name="FatJarPackageWizard">
@@ -136,8 +293,8 @@
 		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="466"/>
-		<item key="DIALOG_Y_ORIGIN" value="-7"/>
+		<item key="DIALOG_X_ORIGIN" value="395"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
 		<item key="DIALOG_WIDTH" value="508"/>
 		<item key="DIALOG_HEIGHT" value="618"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
@@ -147,8 +304,8 @@
 		<item key="RemoveFinal" value="false"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="461"/>
-		<item key="DIALOG_Y_ORIGIN" value="-21"/>
+		<item key="DIALOG_X_ORIGIN" value="384"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
 		<item key="DIALOG_WIDTH" value="519"/>
 		<item key="DIALOG_HEIGHT" value="639"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
@@ -170,5 +327,22 @@
 			<item key="DIALOG_Y_ORIGIN" value="122"/>
 			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 		</section>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.preferences.EditTemplateDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="93"/>
+		<item key="DIALOG_Y_ORIGIN" value="148"/>
+		<item key="DIALOG_WIDTH" value="596"/>
+		<item key="DIALOG_HEIGHT" value="259"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="AddUnimplementedConstructorsDialog">
+		<item key="OmitCallToSuper" value="false"/>
+	</section>
+	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
+		<item key="DIALOG_X_ORIGIN" value="197"/>
+		<item key="DIALOG_Y_ORIGIN" value="100"/>
+		<item key="DIALOG_WIDTH" value="508"/>
+		<item key="DIALOG_HEIGHT" value="570"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 	</section>
 </section>
