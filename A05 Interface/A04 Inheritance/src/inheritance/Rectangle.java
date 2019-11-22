@@ -5,7 +5,7 @@ package inheritance;
  * Date:Nov 16, 2019
  */
 
-public class Rectangle implements Shape {
+public class Rectangle implements Shape, Printable {
 	
 	/**
 	 * 2 private final fields of type int.

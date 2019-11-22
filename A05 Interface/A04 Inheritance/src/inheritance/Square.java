@@ -6,7 +6,7 @@ package inheritance;
  */
 
 
-public class Square extends Rectangle implements Shape{
+public class Square extends Rectangle implements Shape, Printable{
 	
 	/**
 	 * parameterized constructor with only one parameter

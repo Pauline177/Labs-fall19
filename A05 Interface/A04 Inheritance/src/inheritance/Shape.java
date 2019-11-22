@@ -7,5 +7,6 @@ package inheritance;
 
 interface Shape{
 	double perimeter();
-	double are();
+	double area();
 }
+
