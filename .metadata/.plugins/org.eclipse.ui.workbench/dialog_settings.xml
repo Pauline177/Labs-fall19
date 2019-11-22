@@ -34,6 +34,7 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="true"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/paulinemakoma/eclipse-workspace/A04 Inheritance"/>
 			<item value="/Users/paulinemakoma/Downloads/labSerialization"/>
 			<item value="/Users/paulinemakoma/Downloads/labWrapperClassGui"/>
 			<item value="/Users/paulinemakoma/Downloads/labInterface"/>

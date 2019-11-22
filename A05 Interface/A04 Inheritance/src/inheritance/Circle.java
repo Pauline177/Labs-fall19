@@ -5,14 +5,6 @@ package inheritance;
  * Date:Nov 16, 2019
  */
 
-interface Shape{
-	public double perimeter() {
-		return circumference();
-	}
-	public double area(int r) {
-		return r*r*Math.PI;
-	}
-}
 public class Circle implements Shape{
 	
 	/**

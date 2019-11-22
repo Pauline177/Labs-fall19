@@ -6,7 +6,7 @@ package inheritance;
  */
 
 
-public class IsoscelesRightTriangle implements Shape{
+public class IsoscelesRightTriangle implements Shape, Printable{
 	
 	/**
 	 * 1 private final field of type int.
