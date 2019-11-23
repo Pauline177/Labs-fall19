@@ -47,6 +47,46 @@ public class Rectangle implements Shape, Printable {
 	public String toString(){
 		return String.format("Rectangle(%dX%d)", length, width);
 	}
+
+	/**
+	 *Prints desired design of shape
+	 */
+	@Override
+	public void print() {
+		for (int i = 0; i < getWidth(); i++) {
+            System.out.print("* ");
+            for (int j = 0; j < getLength() - 2; j++) {
+
+                if (i == 0 || i == getWidth() - 1) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+
+            }
+            
+            System.out.print("* ");
+            System.out.println();
+        }
+	}
+
+	/**
+	 *returns the perimeter of the element
+	 */
+	@Override
+	public double perimeter() {
+		
+		return (getLength()+ getWidth())*2;
+	}
+
+	/**
+	 *returns the area of the element
+	 */
+	@Override
+	public double area() {
+		
+		return getLength()* getWidth();
+	}
 	
 	
 }

@@ -1,12 +1,10 @@
 package inheritance;
- /**
+/**
  * @author paulinemakoma
  * Assignment:A05 Interface
- * Date:Nov 20, 2019
+ * Date:Nov 21, 2019
  */
+interface printable {
 
-interface Shape{
-	double perimeter();
-	double area();
+	void print(); 
 }
-

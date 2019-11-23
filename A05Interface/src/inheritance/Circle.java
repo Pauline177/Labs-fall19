@@ -1,11 +1,11 @@
 package inheritance;
+
 /**
  * @author paulinemakoma
- * Assignment:A04 Inheritance
+ * Assignment:A05Interface
  * Date:Nov 16, 2019
  */
-
-public class Circle implements Shape{
+public class Circle implements Shape {
 	
 	/**
 	 *  1 private final field of type int
@@ -54,6 +54,24 @@ public class Circle implements Shape{
 	 */
 	public String toString() {
 		return String.format("Circle(%d)", radius);
+	}
+
+	
+	/**
+	 *returns the perimeter of the element
+	 */
+	@Override
+	public double perimeter() {	
+		return getRadius()*2*Math.PI;
+	}
+
+	
+	/**
+	 *returns the area of the element
+	 */
+	@Override
+	public double area() {
+		return getRadius()*getRadius()*Math.PI;
 	}
 	
 }
