@@ -64,8 +64,8 @@
 	<section name="BreadcrumbItemDropDown">
 	</section>
 	<section name="JavadocWizardDialog">
-		<item key="DIALOG_X_ORIGIN" value="390"/>
-		<item key="DIALOG_Y_ORIGIN" value="200"/>
+		<item key="DIALOG_X_ORIGIN" value="-37"/>
+		<item key="DIALOG_Y_ORIGIN" value="171"/>
 		<item key="DIALOG_WIDTH" value="600"/>
 		<item key="DIALOG_HEIGHT" value="531"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
@@ -87,9 +87,9 @@
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="true"/>
 		<item key="source" value="1.8"/>
-		<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/A04 Inheritance/javadoc.xml"/>
-		<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/A04 Inheritance/doc"/>
-		<item key="doctitle" value="Java FTP client Utility API"/>
+		<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/A06 Red Counter/javadoc.xml"/>
+		<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/A06 Red Counter/doc"/>
+		<item key="doctitle" value="Rec counter doc"/>
 		<section name="projects">
 			<section name="Lab KeyValuePair3">
 				<item key="href" value=""/>
@@ -105,6 +105,11 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/ItemList/doc"/>
 				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/ItemList/javadoc.xml"/>
+			</section>
+			<section name="A05Interface">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/A04 Inheritance/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/A05Interface/javadoc.xml"/>
 			</section>
 			<section name="Lab Interface">
 				<item key="href" value=""/>
@@ -165,6 +170,11 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/1410_Module04/doc"/>
 				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/1410_Module04/javadoc.xml"/>
+			</section>
+			<section name="A06 Red Counter">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/A06 Red Counter/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/A06 Red Counter/javadoc.xml"/>
 			</section>
 			<section name="Lab Coin">
 				<item key="href" value=""/>
@@ -252,12 +262,14 @@
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="/Users/paulinemakoma/eclipse-workspace"/>
 		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="1"/>
-		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="Module02App - Module02"/>
-		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="/Users/paulinemakoma/Desktop/runnable module02.jar"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="RedCounter - A06 Red Counter"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="/Users/paulinemakoma/Desktop/runnable A06RedCount.jar"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/paulinemakoma/Desktop/runnable A06RedCount.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/runnable module02.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="/Users/paulinemakoma/eclipse-workspace.xml"/>
 			<item value=".xml"/>
 		</list>
 	</section>

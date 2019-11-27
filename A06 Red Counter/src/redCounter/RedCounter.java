@@ -8,21 +8,17 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
-import javax.swing.JTextArea;
-import javax.swing.JButton;
+
 import javax.swing.SwingConstants;
 import java.awt.Color;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
+
 import java.awt.Dimension;
 import java.awt.Font;
-import java.awt.Rectangle;
+
 import java.awt.Component;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.util.Arrays;
-import java.util.Collections;
-import java.awt.SystemColor;
+
 import javax.swing.UIManager;
 
 /**
@@ -31,9 +27,10 @@ import javax.swing.UIManager;
  * Date:Nov 22, 2019
  */
 
+@SuppressWarnings("serial")
 public class RedCounter extends JFrame {
 	/**
-	 * Jframe class that displays 2 labels and a button
+	 * JFrame class that displays 2 labels and a button
 	 */
 	
 	private JPanel contentPane;
