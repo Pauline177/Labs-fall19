@@ -4,28 +4,29 @@
 package changingImages;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JTextField;
+
 import javax.swing.SwingConstants;
 import java.awt.Dimension;
 import java.awt.Font;
-import javax.swing.JTextArea;
+import java.awt.Graphics;
+
 import javax.swing.JCheckBox;
 import javax.swing.JButton;
 import javax.swing.JLabel;
-import java.awt.GridLayout;
-import javax.swing.JEditorPane;
-import javax.swing.JSeparator;
+
 
 /**
  * @author paulinemakoma
  * Assignment:A07 Changing Images
  * Date:Nov 26, 2019
  */
+@SuppressWarnings("serial")
 public class Meal extends JFrame {
 
 	private JPanel contentPane;
@@ -39,6 +40,7 @@ public class Meal extends JFrame {
 				try {
 					Meal frame = new Meal();
 					frame.setVisible(true);
+					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -51,11 +53,12 @@ public class Meal extends JFrame {
 	 */
 	public Meal() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 500, 500);
+		setBounds(100, 100, 600, 500);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
+		
 		
 		JPanel panel = new JPanel();
 		panel.setFont(new Font("Lucida Grande", Font.PLAIN, 15));
@@ -88,28 +91,17 @@ public class Meal extends JFrame {
 		JButton btnFindMeal = new JButton("Find Meal");
 		panel.add(btnFindMeal);
 		
-		JSeparator separator_1 = new JSeparator();
-		panel.add(separator_1);
-		
 		JPanel panel_1 = new JPanel();
-		panel_1.setPreferredSize(new Dimension(340, 30));
+		panel_1.setPreferredSize(new Dimension(440, 10));
 		contentPane.add(panel_1, BorderLayout.EAST);
-		panel_1.setLayout(new GridLayout(0, 3, 0, 0));
-		
-		JLabel lblP = new JLabel("Display proteins");
-		panel_1.add(lblP);
-		
-		JSeparator separator = new JSeparator();
-		panel_1.add(separator);
-		
-		JLabel lblNewLabel = new JLabel("Display fats");
-		panel_1.add(lblNewLabel);
-		
-		JSeparator separator_2 = new JSeparator();
-		panel_1.add(separator_2);
-		
-		JLabel lblDisplayCarbs = new JLabel("Display carbs");
-		panel_1.add(lblDisplayCarbs);
 	}
 
+//	public void paintComponent(Graphics g) {
+//		paintComponent(g);
+//		this.setBackground(Color.BLACK);
+//		g.setColor(Color.WHITE);
+//		g.fillArc(5, 10, 200, 200, 0, 117);
+//		g.fillArc(5, 10, 200, 200, 120, 117);
+//		g.fillArc(5, 10, 200, 200, 240, 117);
+//	}
 }

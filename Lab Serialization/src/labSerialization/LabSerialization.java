@@ -32,13 +32,12 @@ public class LabSerialization {
 
 
         testDemo(demo);
-
         serialize(demo, "Demo.ser");
 
-        System.out.println("diff");
-        ListVsSetDemo demo2 = deserialize("Demo.ser");
-
-        testDemo(demo2);
+        System.out.println("Serialization is complete");
+        
+        ListVsSetDemo newDemo = deserialize("Demo.ser");
+        testDemo(newDemo);
 
 
 
