@@ -21,8 +21,11 @@ import javax.net.ssl.SSLContext;
 public class Module05 {
 	private static ArrayList<String> lines = new ArrayList<String>();
 	
+	
+	
 	public static void main(String[] args) {
 		String line = null;
+		
 		
 		try {
 			////reading in from file using scanner
