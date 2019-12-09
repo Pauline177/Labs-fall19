@@ -2,6 +2,10 @@ package a03;
 
 public class CodingBat {
 
+	/**
+	 * @param str
+	 * @return
+	 */
 	public String zipZap(String str) {
 		
 		if (str.length() <= 2) return str;

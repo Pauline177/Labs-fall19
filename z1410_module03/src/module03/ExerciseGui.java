@@ -9,7 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import newProject.ExerciseGui;
+//import newProject.ExerciseGui;
 
 import javax.swing.JLabel;
 import java.awt.GridLayout;

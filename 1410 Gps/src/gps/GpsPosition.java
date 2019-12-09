@@ -35,21 +35,33 @@ public class GpsPosition {
 	}
 	
 	
+	/**
+	 * @return latitude
+	 */
 	public Double getLatitude(){
 		
 		return latitude;
 	}
 	
+	/**
+	 * @return longitue
+	 */
 	public Double getLongitude(){
 		
 		return longitude;
 	}
 
+	/**
+	 * @return elevation
+	 */
 	public Double getElevation(){
 		
 		return elevation;
 	}
 	
+	/**
+	 * returns string of this format eg: 38.573645, -109.546389 (1227.1)
+	 */
 	@Override
 	public String toString() {
 		

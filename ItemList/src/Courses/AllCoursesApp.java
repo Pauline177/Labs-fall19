@@ -1,27 +1,38 @@
+/**
+ * @author paulinemakoma Christian Makoma
+ * Assignment:ItemList
+ * Date:Dec 9, 2019 edited 
+ */
 package Courses;
 import java.util.Scanner;
 
+/**
+ *client class
+ */
 public class AllCoursesApp {
 
 	private static Scanner input = new Scanner(System.in);
-	/**
-	 * 
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
-		AllCoursesApp all = new AllCoursesApp();
 		AllCourses myC = new AllCourses();
-		Course  c ;
+		Course  c;
 		int id = 0;
 		
+		//// add 4 courses
+		myC.addCourse(new Course("Math", "Fall", 2018));
+		myC.addCourse(new Course("CSIS 1400", "Summer", 2019));
+		myC.addCourse(new Course("Chemistry", "Summer", 2017));
+		myC.addCourse(new Course("Englis", "Spring", 2018));
+		
 		int choice = 0; 
+		////// menu format
 		while(choice != 6) {
 			System.out.println();
-			System.out.println("1. Display all books");
-            System.out.println("2. Add a book");
-            System.out.println("3. Find a book");
-            System.out.println("4. Delete a book");
-            System.out.println("5. Number of books");
+			System.out.println("1. Display all courses");
+            System.out.println("2. Add a course");
+            System.out.println("3. Find a course");
+            System.out.println("4. Delete a course");
+            System.out.println("5. Number of courses");
             System.out.println("6. Exit");
             System.out.print("Enter selection: ");
          
@@ -82,6 +93,10 @@ public class AllCoursesApp {
 	}
 	
 	
+	/**
+	 * read input from user
+	 * @return
+	 */
 	public static Course courseDes() {
 		String name, semester;
 		int year;
@@ -89,8 +104,6 @@ public class AllCoursesApp {
 		System.out.println("Course Name: ");
 		 name= input.nextLine();
 		 
-
-		
 
 		System.out.println("Course Semester: ");
 		semester = input.nextLine();

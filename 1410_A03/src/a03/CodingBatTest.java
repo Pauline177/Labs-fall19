@@ -6,6 +6,9 @@ import org.junit.Test;
 
 public class CodingBatTest {
 
+	/**
+	 * 
+	 */
 	@Test
 	public void testZipZap1() {
 		CodingBat tester = new CodingBat();
