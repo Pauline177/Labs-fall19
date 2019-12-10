@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"exerciseSerialization","c":"ExcerciseSerialize","l":"ExcerciseSerialize()","url":"%3Cinit%3E()"},{"p":"exerciseSerialization","c":"ExcerciseSerialize","l":"main(String[])","url":"main(java.lang.String[])"}]

@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"file","c":"ExcerciseFile","l":"ExcerciseFile()","url":"%3Cinit%3E()"},{"p":"file","c":"ExcerciseFile","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"file","c":"ExcerciseFile","l":"scan"}]

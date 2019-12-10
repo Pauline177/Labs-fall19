@@ -42,6 +42,9 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/paulinemakoma/Desktop/A03 Assignment.jar"/>
+			<item value="/Users/paulinemakoma/Desktop/ItemList2.jar"/>
+			<item value="/Users/paulinemakoma/Desktop/A07 ChangingImages.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/A06 RedCounter.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/A04Inheritance.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/A04 Inheritance.jar"/>
@@ -65,7 +68,7 @@
 	<section name="BreadcrumbItemDropDown">
 	</section>
 	<section name="JavadocWizardDialog">
-		<item key="DIALOG_X_ORIGIN" value="-37"/>
+		<item key="DIALOG_X_ORIGIN" value="0"/>
 		<item key="DIALOG_Y_ORIGIN" value="171"/>
 		<item key="DIALOG_WIDTH" value="600"/>
 		<item key="DIALOG_HEIGHT" value="531"/>
@@ -88,9 +91,9 @@
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="true"/>
 		<item key="source" value="1.8"/>
-		<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/A06 Red Counter/javadoc.xml"/>
-		<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/A06 Red Counter/doc"/>
-		<item key="doctitle" value="Rec counter doc"/>
+		<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/1410 Gps/javadoc.xml"/>
+		<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/1410 Gps/doc"/>
+		<item key="doctitle" value="A03"/>
 		<section name="projects">
 			<section name="Lab KeyValuePair3">
 				<item key="href" value=""/>
@@ -101,6 +104,11 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab poly/doc"/>
 				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab poly/javadoc.xml"/>
+			</section>
+			<section name="A09 ListVsSet">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/A09 ListVsSet/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/A09 ListVsSet/javadoc.xml"/>
 			</section>
 			<section name="ItemList">
 				<item key="href" value=""/>
@@ -142,6 +150,11 @@
 				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab timesTable/doc"/>
 				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab timesTable/javadoc.xml"/>
 			</section>
+			<section name="A07">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/A07/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/A07/javadoc.xml"/>
+			</section>
 			<section name="Lab Balloon">
 				<item key="href" value=""/>
 				<item key="destdir" value="/Users/paulinemakoma/git/LabsFall19/Lab Balloon/doc"/>
@@ -176,6 +189,11 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/A06 Red Counter/doc"/>
 				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/A06 Red Counter/javadoc.xml"/>
+			</section>
+			<section name="Group Project">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Group Project/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Group Project/javadoc.xml"/>
 			</section>
 			<section name="Lab Coin">
 				<item key="href" value=""/>

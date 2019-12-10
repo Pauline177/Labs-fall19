@@ -34,6 +34,10 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="true"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/paulinemakoma/Downloads/ListVsSet/src/listVsSet"/>
+			<item value="/Users/paulinemakoma/Downloads/ListVsSet"/>
+			<item value="/Users/paulinemakoma/Downloads/FirstTry"/>
+			<item value="/Users/paulinemakoma/Downloads/FirstTry/src/firstTry"/>
 			<item value="/Users/paulinemakoma/Downloads/labSerialization (1)"/>
 			<item value="/Users/paulinemakoma/eclipse-workspace/A04 Inheritance"/>
 			<item value="/Users/paulinemakoma/Downloads/labSerialization"/>
@@ -47,11 +51,18 @@
 		<item key="DIALOG_Y_ORIGIN" value="54"/>
 	</section>
 	<section name="FileSystemExportWizard">
+		<item key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID" value="false"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/paulinemakoma/Desktop"/>
+		</list>
 	</section>
 	<section name="ZipFileExportWizard">
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="false"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/paulinemakoma/Desktop/A09 ListVsSet Assignment.zip"/>
 			<item value="/Users/paulinemakoma/Desktop/A05 Interface.zip"/>
 			<item value="/Users/paulinemakoma/Desktop/WrapperClass.zip"/>
 			<item value="/Users/paulinemakoma/Desktop/module2.zip"/>
