@@ -16,7 +16,7 @@
 	</section>
 	<section name="NewClassWizardPage">
 		<item key="create_constructor" value="false"/>
-		<item key="create_unimplemented" value="false"/>
+		<item key="create_unimplemented" value="true"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
@@ -42,6 +42,10 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/paulinemakoma/Desktop/GroupProject.jar"/>
+			<item value="/Users/paulinemakoma/Desktop/ExerciseGeneric.jar"/>
+			<item value="/Users/paulinemakoma/Desktop/ExerciseSerialize.jar"/>
+			<item value="/Users/paulinemakoma/Desktop/ExerciseFile.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/A03 Assignment.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/ItemList2.jar"/>
 			<item value="/Users/paulinemakoma/Desktop/A07 ChangingImages.jar"/>
@@ -91,9 +95,9 @@
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="true"/>
 		<item key="source" value="1.8"/>
-		<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/1410 Gps/javadoc.xml"/>
-		<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/1410 Gps/doc"/>
-		<item key="doctitle" value="A03"/>
+		<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/GroupProject/javadoc.xml"/>
+		<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/GroupProject/doc"/>
+		<item key="doctitle" value="groupProject"/>
 		<section name="projects">
 			<section name="Lab KeyValuePair3">
 				<item key="href" value=""/>
@@ -125,6 +129,11 @@
 				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab Interface/doc"/>
 				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab Interface/javadoc.xml"/>
 			</section>
+			<section name="GroupProject">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/GroupProject/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/GroupProject/javadoc.xml"/>
+			</section>
 			<section name="Lab Serialization">
 				<item key="href" value=""/>
 				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab Serialization/doc"/>
@@ -135,10 +144,20 @@
 				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Lab File/doc"/>
 				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Lab File/javadoc.xml"/>
 			</section>
+			<section name="Excercise File">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Excercise File/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Excercise File/javadoc.xml"/>
+			</section>
 			<section name="Module02">
 				<item key="href" value=""/>
 				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Module02/doc"/>
 				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Module02/javadoc.xml"/>
+			</section>
+			<section name="Exercise Generic">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Exercise Generic/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Exercise Generic/javadoc.xml"/>
 			</section>
 			<section name="LabLayout">
 				<item key="href" value=""/>
@@ -180,6 +199,11 @@
 				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Test WindowBuilder/doc"/>
 				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Test WindowBuilder/javadoc.xml"/>
 			</section>
+			<section name="ExerciseSerialize">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/ExerciseSerialize/doc"/>
+				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/ExerciseSerialize/javadoc.xml"/>
+			</section>
 			<section name="1410_Module04">
 				<item key="href" value=""/>
 				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/1410_Module04/doc"/>
@@ -189,11 +213,6 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/A06 Red Counter/doc"/>
 				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/A06 Red Counter/javadoc.xml"/>
-			</section>
-			<section name="Group Project">
-				<item key="href" value=""/>
-				<item key="destdir" value="/Users/paulinemakoma/eclipse-workspace/Group Project/doc"/>
-				<item key="antpath" value="/Users/paulinemakoma/eclipse-workspace/Group Project/javadoc.xml"/>
 			</section>
 			<section name="Lab Coin">
 				<item key="href" value=""/>

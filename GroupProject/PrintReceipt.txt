@@ -1,0 +1,5 @@
+Hawaiian: $10.99
+Pepperoni: $12.99
+Veggie: $14.99
+Cheese: $10.99
+Total: $49.96
